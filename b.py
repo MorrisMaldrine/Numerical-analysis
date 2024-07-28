@@ -22,7 +22,7 @@ def differentiation():
     plt.savefig("./assets/differentiation.png")
 
 
-def numerical-integration():
+def numericalintegration():
     def f(x):
         return x**2
 
@@ -30,7 +30,7 @@ def numerical-integration():
     print(f"Integral of x^2 from 0 to 1: {result}")
 
 
-def curve-fitting():
+def curvefitting():
     x = np.linspace(0, 10, 100)
     y = 3 * x**2 + 2 * x + 1 + np.random.normal(0, 10, 100)
 
@@ -48,7 +48,7 @@ def curve-fitting():
     plt.savefig("./assets/curve_fitting.png")
 
 
-def linear-regression():
+def linearregression():
     x = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
     y = np.array([2, 4, 5, 4, 5])
 
@@ -63,7 +63,7 @@ def linear-regression():
     plt.savefig("./assets/linear_regression.png")
 
 
-def spline-interpolation():
+def splineinterpolation():
     x = np.array([0, 1, 2, 3, 4, 5])
     y = np.array([0, 8, 9, 1, -7, 6])
 
@@ -83,7 +83,7 @@ def spline-interpolation():
 
 
 differentiation()
-numerical-integration()
-curve-fitting()
-linear-regression()
-spline-interpolation()
+numericalintegration()
+curvefitting()
+linearregression()
+splineinterpolation()
