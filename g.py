@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def trapezoidal-rule(f, a, b, n):
+def trapezoidalrule(f, a, b, n):
     """
     Approximate the definite integral of f from a to b using the trapezoidal rule.
 
@@ -23,7 +23,7 @@ def f(x):
 a, b = 0, 1  # Interval of integration
 n = 1000  # Number of subintervals
 
-result = trapezoidal-rule(f, a, b, n)
+result = trapezoidalrule(f, a, b, n)
 print(f"Approximate integral of x^2 from 0 to 1: {result}")
 print(f"Exact value: {1/3}")
 print(f"Error: {abs(result - 1/3)}")
